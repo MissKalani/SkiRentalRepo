@@ -1,0 +1,13 @@
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.ServiceLayer.dll
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.ServiceLayer.pdb
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.DataAccess.dll
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.Models.dll
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.Repositories.dll
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\EntityFramework.dll
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.DataAccess.pdb
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.Models.pdb
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\SkiRental.Repositories.pdb
+C:\dev\SkiRental\SkiRental.ServiceLayer\bin\Debug\EntityFramework.xml
+C:\dev\SkiRental\SkiRental.ServiceLayer\obj\Debug\SkiRental.ServiceLayer.csprojResolveAssemblyReference.cache
+C:\dev\SkiRental\SkiRental.ServiceLayer\obj\Debug\SkiRental.ServiceLayer.dll
+C:\dev\SkiRental\SkiRental.ServiceLayer\obj\Debug\SkiRental.ServiceLayer.pdb

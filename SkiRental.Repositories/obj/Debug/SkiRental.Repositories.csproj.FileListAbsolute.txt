@@ -1,0 +1,13 @@
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\SkiRental.Repositories.dll
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\SkiRental.Repositories.pdb
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\EntityFramework.dll
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\SkiRental.DataAccess.dll
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\SkiRental.Models.dll
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\SkiRental.DataAccess.pdb
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\SkiRental.Models.pdb
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\EntityFramework.xml
+C:\dev\SkiRental\SkiRental.Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\dev\SkiRental\SkiRental.Repositories\obj\Debug\SkiRental.Repositories.csprojResolveAssemblyReference.cache
+C:\dev\SkiRental\SkiRental.Repositories\obj\Debug\SkiRental.Repositories.dll
+C:\dev\SkiRental\SkiRental.Repositories\obj\Debug\SkiRental.Repositories.pdb

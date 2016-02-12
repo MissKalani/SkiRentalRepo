@@ -1,0 +1,4 @@
+C:\dev\SkiRental\SkiRental.Models\bin\Debug\SkiRental.Models.dll
+C:\dev\SkiRental\SkiRental.Models\bin\Debug\SkiRental.Models.pdb
+C:\dev\SkiRental\SkiRental.Models\obj\Debug\SkiRental.Models.dll
+C:\dev\SkiRental\SkiRental.Models\obj\Debug\SkiRental.Models.pdb

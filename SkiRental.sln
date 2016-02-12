@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.Models", "SkiRental.Models\SkiRental.Models.csproj", "{0543625A-D106-413F-9013-2858861C6508}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.DataAccess", "SkiRental.DataAccess\SkiRental.DataAccess.csproj", "{11C050E2-D481-4D75-A286-F57AB729DAAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.API", "SkiRental.API\SkiRental.API.csproj", "{3DABFBFB-7D44-4C56-AFF8-B08FFEC6C467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.Repositories", "SkiRental.Repositories\SkiRental.Repositories.csproj", "{E6B37946-D96E-4A02-A41E-9A8C36F468BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.ServiceLayer", "SkiRental.ServiceLayer\SkiRental.ServiceLayer.csproj", "{59C5549A-9FF8-44B2-A10B-B7E6162C56D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.UnitTests", "SkiRental.UnitTests\SkiRental.UnitTests.csproj", "{0AFE3A2E-A12D-491F-BBA0-C4ED41DA7B3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.IntegrationTests", "SkiRental.IntegrationTests\SkiRental.IntegrationTests.csproj", "{3AE7FE6B-D875-4008-91AB-33AEF711DF5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{770096E0-BC8E-47FA-980D-C122FB956D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental.RentalGUI", "SkiRental.RentalGUI\SkiRental.RentalGUI.csproj", "{9FC208E6-2788-4E27-862B-144EBFF3F250}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0543625A-D106-413F-9013-2858861C6508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0543625A-D106-413F-9013-2858861C6508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0543625A-D106-413F-9013-2858861C6508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0543625A-D106-413F-9013-2858861C6508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11C050E2-D481-4D75-A286-F57AB729DAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C050E2-D481-4D75-A286-F57AB729DAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C050E2-D481-4D75-A286-F57AB729DAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C050E2-D481-4D75-A286-F57AB729DAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DABFBFB-7D44-4C56-AFF8-B08FFEC6C467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DABFBFB-7D44-4C56-AFF8-B08FFEC6C467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DABFBFB-7D44-4C56-AFF8-B08FFEC6C467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DABFBFB-7D44-4C56-AFF8-B08FFEC6C467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B37946-D96E-4A02-A41E-9A8C36F468BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B37946-D96E-4A02-A41E-9A8C36F468BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B37946-D96E-4A02-A41E-9A8C36F468BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B37946-D96E-4A02-A41E-9A8C36F468BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C5549A-9FF8-44B2-A10B-B7E6162C56D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C5549A-9FF8-44B2-A10B-B7E6162C56D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C5549A-9FF8-44B2-A10B-B7E6162C56D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C5549A-9FF8-44B2-A10B-B7E6162C56D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AFE3A2E-A12D-491F-BBA0-C4ED41DA7B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AFE3A2E-A12D-491F-BBA0-C4ED41DA7B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AFE3A2E-A12D-491F-BBA0-C4ED41DA7B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AFE3A2E-A12D-491F-BBA0-C4ED41DA7B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AE7FE6B-D875-4008-91AB-33AEF711DF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AE7FE6B-D875-4008-91AB-33AEF711DF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AE7FE6B-D875-4008-91AB-33AEF711DF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AE7FE6B-D875-4008-91AB-33AEF711DF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC208E6-2788-4E27-862B-144EBFF3F250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC208E6-2788-4E27-862B-144EBFF3F250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC208E6-2788-4E27-862B-144EBFF3F250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC208E6-2788-4E27-862B-144EBFF3F250}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AFE3A2E-A12D-491F-BBA0-C4ED41DA7B3F} = {770096E0-BC8E-47FA-980D-C122FB956D02}
+		{3AE7FE6B-D875-4008-91AB-33AEF711DF5C} = {770096E0-BC8E-47FA-980D-C122FB956D02}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://larswoxberg.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SkiRental.Models\\SkiRental.Models.csproj
+		SccProjectName1 = SkiRental.Models
+		SccLocalPath1 = SkiRental.Models
+		SccProjectUniqueName2 = SkiRental.DataAccess\\SkiRental.DataAccess.csproj
+		SccProjectName2 = SkiRental.DataAccess
+		SccLocalPath2 = SkiRental.DataAccess
+	EndGlobalSection
+EndGlobal

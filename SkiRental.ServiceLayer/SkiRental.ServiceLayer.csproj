@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59C5549A-9FF8-44B2-A10B-B7E6162C56D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkiRental.ServiceLayer</RootNamespace>
+    <AssemblyName>SkiRental.ServiceLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EquipmentService.cs" />
+    <Compile Include="EquipmentStatesService.cs" />
+    <Compile Include="IEquipmentService.cs" />
+    <Compile Include="IEquipmentStatesService.cs" />
+    <Compile Include="IPlansService.cs" />
+    <Compile Include="IPricesService.cs" />
+    <Compile Include="IRentalService.cs" />
+    <Compile Include="ITypesService.cs" />
+    <Compile Include="PlansService.cs" />
+    <Compile Include="PricesService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RentalService.cs" />
+    <Compile Include="TypesService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SkiRental.DataAccess\SkiRental.DataAccess.csproj">
+      <Project>{11c050e2-d481-4d75-a286-f57ab729daab}</Project>
+      <Name>SkiRental.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkiRental.Models\SkiRental.Models.csproj">
+      <Project>{0543625a-d106-413f-9013-2858861c6508}</Project>
+      <Name>SkiRental.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SkiRental.Repositories\SkiRental.Repositories.csproj">
+      <Project>{e6b37946-d96e-4a02-a41e-9a8c36f468bc}</Project>
+      <Name>SkiRental.Repositories</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
